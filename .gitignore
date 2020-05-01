@@ -1,0 +1,4 @@
+node_modules
+logfile
+yarn-error.log
+secrets.js
