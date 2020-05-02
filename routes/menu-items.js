@@ -12,15 +12,18 @@ router.get('/', (req, res) => {
   )
     .then(items => res.send({ items }))
     .catch(err => console.log(err))
-    .finally(() => db.close())
 })
 
 router.get('/:id', (req, res) => {
-  const itemId = req.params.id
-  MenuItems.findOne({ itemId })
+  const itemId = Number(req.params.id)
+  console.log(req.params)
+  MenuItems.findOne({
+    where: {
+      id: itemId
+    }
+  })
     .then(item => res.send({ item }))
     .catch(err => console.log(err))
-    .finally(() => db.close())
 })
 
 router.post('/add', (req, res) => {
@@ -29,7 +32,6 @@ router.post('/add', (req, res) => {
   MenuItems.create(item)
     .then(item => res.status(201).send(item))
     .catch(err => console.log(err))
-    .finally(() => db.close())
 })
 
 router.put('/:id', (req, res) => {
@@ -52,7 +54,6 @@ router.put('/:id', (req, res) => {
         error
       })
     })
-    .finally(() => db.close())
 })
 
 router.delete('/:id', (req, res) => {
@@ -75,7 +76,6 @@ router.delete('/:id', (req, res) => {
         error
       })
     })
-    .finally(() => db.close())
 })
 
 module.exports = router
