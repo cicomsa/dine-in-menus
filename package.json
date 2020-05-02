@@ -4,15 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "./node_modules/.bin/mocha tester.js",
+    "test": "mocha",
     "start": "nodemon index.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
     "express": "^4.17.1",
+    "mocha": "^7.1.2",
     "nodemon": "^2.0.3",
     "pg": "^8.0.3",
-    "pg-hstore": "^2.3.3",
     "sequelize": "^5.21.7"
   }
 }
