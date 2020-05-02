@@ -5,39 +5,35 @@
       "category": "INSALATA",
       "description": "mixed leaf salad, cherry tomatoes, grated carrot",
       "dietary": "Vegan",
-      "id": 1,
       "ingredients": "mixed leaf salad, cherry tomatoes, grated carrot",
-      "name": "INSALATA MISTA PICCOLA ",
-      "price": "4.99 "
+      "name": "INSALATA MISTA PICCOLA",
+      "price": "4.99"
     },
     {
       "additional_details": null,
       "category": "INSALATA",
       "description": "cherry tomatoes, buffalo mozzarella, basil, rocket",
       "dietary": null,
-      "id": 2,
       "ingredients": "cherry tomatoes, buffalo mozzarella, basil, rocket",
       "name": "INSALATA CAPRESE",
-      "price": "8.50 "
+      "price": "8.50"
     },
     {
       "additional_details": null,
       "category": "PIZZA",
       "description": "tomato sauce, fresh garlic, oregano (no cheese) ",
       "dietary": "Vegan",
-      "id": 27,
       "ingredients": "tomato sauce, fresh garlic, oregano",
       "name": "MARINARA",
-      "price": "7.95 "
+      "price": "7.95"
     },
     {
       "additional_details": null,
       "category": "INSALATA",
       "description": "grilled fillet of beef and king prawns, grilled vegetables, cherry tomatoes, spring onions, mixed leaves, Italian hard cheese",
       "dietary": null,
-      "id": 3,
       "ingredients": "grilled fillet of beef, king prawns, grilled vegetables, cherry tomatoes, spring onions, mixed leaves, Italian hard cheese",
-      "name": "INSALATA REEF‘N BEEF ",
+      "name": "INSALATA REEF‘N BEEF",
       "price": "11.95"
     },
     {
@@ -45,17 +41,15 @@
       "category": "INSALATA",
       "description": "grilled chicken, cos lettuce, homemade croutons, Italian hard cheese",
       "dietary": null,
-      "id": 4,
       "ingredients": "grilled chicken, cos lettuce, homemade croutons, Italian hard cheese",
       "name": "INSALATA CESARE",
-      "price": "9.25 "
+      "price": "9.25"
     },
     {
       "additional_details": "regular",
       "category": "INSALATA",
       "description": "grilled chicken, cos lettuce, homemade croutons, Italian hard cheese",
       "dietary": null,
-      "id": 5,
       "ingredients": "grilled chicken, cos lettuce, homemade croutons, Italian hard cheese",
       "name": "INSALATA CESARE",
       "price": "11.95"
@@ -65,27 +59,24 @@
       "category": "INSALATA",
       "description": "our large mixed salad",
       "dietary": "Vegetarian",
-      "id": 6,
       "ingredients": null,
       "name": "INSALATA MISTA DELLA CASA",
-      "price": "7.95 "
+      "price": "7.95"
     },
     {
       "additional_details": null,
       "category": "INSALATA",
       "description": "fresh spinach, strawberries, goats’ cheese, red onions, pine nuts, raspberry-maple dressing",
       "dietary": "Vegetarian",
-      "id": 7,
       "ingredients": "fresh spinach, strawberries, goats’ cheese, red onions, pine nuts, raspberry-maple dressing",
       "name": "STRAWBERRY SPINACH SALAD",
-      "price": "8.65 "
+      "price": "8.65"
     },
     {
       "additional_details": null,
       "category": "INSALATA",
       "description": "tuna pieces, mixed leaf salad, onions, egg, cherry tomatoes, green beans, new potatoes, black olives",
       "dietary": null,
-      "id": 8,
       "ingredients": "tuna pieces, mixed leaf salad, onions, egg, cherry tomatoes, green beans, new potatoes, black olives",
       "name": "INSALATA NIÇOISE",
       "price": "10.65"
@@ -95,19 +86,17 @@
       "category": "SOUP",
       "description": "with our homemade ciabatta croutons or Italian hard cheese",
       "dietary": "Vegetarian",
-      "id": 10,
       "ingredients": null,
       "name": "TOMATO SOUP",
-      "price": "5.95 "
+      "price": "5.95"
     },
     {
       "additional_details": null,
       "category": "HOMEMADE LASAGNE",
       "description": "homemade beef Bolognese, bechamel sauce & a side salad",
       "dietary": null,
-      "id": 11,
       "ingredients": null,
-      "name": "CLASSIC LASAGNE ",
+      "name": "CLASSIC LASAGNE",
       "price": "11.85"
     },
     {
@@ -115,7 +104,6 @@
       "category": "SOUP",
       "description": "with our homemade ciabatta croutons or Italian hard cheese",
       "dietary": "Vegetarian",
-      "id": 9,
       "ingredients": null,
       "name": "TOMATO SOUP",
       "price": "4.35"
@@ -125,9 +113,8 @@
       "category": "HOMEMADE FRESH PASTA",
       "description": "garlic, chili, parsley, Italian hard cheese",
       "dietary": "Vegetarian",
-      "id": 12,
       "ingredients": "garlic, chili, parsley, Italian hard cheese",
-      "name": "AGLIO E OLIO ",
+      "name": "AGLIO E OLIO",
       "price": "6.99"
     },
     {
@@ -135,7 +122,6 @@
       "category": "HOMEMADE FRESH PASTA",
       "description": "garlic, chili, parsley",
       "dietary": "Vegan",
-      "id": 13,
       "ingredients": "garlic, chili, parsley",
       "name": "AGLIO E OLIO ",
       "price": "6.99"
@@ -145,7 +131,6 @@
       "category": "HOMEMADE FRESH PASTA",
       "description": "tomato sauce, garlic, onions, chilli, Italian hard cheese",
       "dietary": "Vegetarian",
-      "id": 14,
       "ingredients": "tomato sauce, garlic, onions, chilli, Italian hard cheese",
       "name": "ARRABBIATA",
       "price": "8.35"
@@ -155,7 +140,6 @@
       "category": "HOMEMADE FRESH PASTA",
       "description": "tomato sauce, garlic, onions, chilli",
       "dietary": "Vegan",
-      "id": 15,
       "ingredients": "tomato sauce, garlic, onions, chilli",
       "name": "ARRABBIATA",
       "price": "8.35"
@@ -165,7 +149,6 @@
       "category": "HOMEMADE FRESH PASTA",
       "description": "king prawns, onions, cream, Italian hard cheese, nutmeg, fresh spinach, cherry tomatoes, basil pesto",
       "dietary": null,
-      "id": 16,
       "ingredients": "king prawns, onions, cream, Italian hard cheese, nutmeg, fresh spinach, cherry tomatoes, basil pesto",
       "name": "GAMBERETTI E SPINACI",
       "price": "11.75"
@@ -175,7 +158,6 @@
       "category": "HOMEMADE FRESH PASTA",
       "description": "our classic homemade beef sauce, onions, carrots, butter, cherry tomatoes, tomato sauce, Italian hard cheese",
       "dietary": null,
-      "id": 17,
       "ingredients": "homemade beef sauce, onions, carrots, butter, cherry tomatoes, tomato sauce, Italian hard cheese",
       "name": "BOLOGNESE",
       "price": "10.45"
@@ -185,7 +167,6 @@
       "category": "HOMEMADE FRESH PASTA",
       "description": "bacon, onions, cream, Italian hard cheese, egg yolk, parsley",
       "dietary": null,
-      "id": 18,
       "ingredients": "bacon, onions, cream, Italian hard cheese, egg yolk, parsley",
       "name": "CARBONARA",
       "price": "10.45"
@@ -195,9 +176,8 @@
       "category": "HOMEMADE FRESH PASTA",
       "description": "chicken, mushrooms, balsamic onions, garlic, cream, Italian hard cheese, egg yolk, nutmeg",
       "dietary": null,
-      "id": 19,
       "ingredients": "chicken, mushrooms, balsamic onions, garlic, cream, Italian hard cheese, egg yolk, nutmeg",
-      "name": "CHICKEN ALFREDO ",
+      "name": "CHICKEN ALFREDO",
       "price": "10.75"
     },
     {
@@ -205,9 +185,8 @@
       "category": "HOMEMADE FRESH PASTA",
       "description": "mushrooms, rosemary, balsamic onions, garlic oil, white wine, vegetable broth, cream, butter, Italian hard cheese, nutmeg, parsley",
       "dietary": "Vegetarian",
-      "id": 20,
       "ingredients": "mushrooms, rosemary, balsamic onions, garlic oil, white wine, vegetable broth, cream, butter, Italian hard cheese, nutmeg, parsley",
-      "name": "RISOTTO FUNGHI ",
+      "name": "RISOTTO FUNGHI",
       "price": "10.35"
     },
     {
@@ -215,9 +194,8 @@
       "category": "HOMEMADE FRESH PASTA",
       "description": "mushrooms, rosemary, balsamic onions, garlic oil, white wine, vegetable broth, cream, butter, Italian hard cheese, nutmeg, parsley",
       "dietary": null,
-      "id": 21,
       "ingredients": "chicken, mushrooms, rosemary, balsamic onions, garlic oil, white wine, vegetable broth, cream, butter, Italian hard cheese, nutmeg, parsley",
-      "name": "RISOTTO FUNGHI ",
+      "name": "RISOTTO FUNGHI",
       "price": "12.95"
     },
     {
@@ -225,9 +203,8 @@
       "category": "HOMEMADE FRESH PASTA",
       "description": "mushrooms, rosemary, balsamic onions, garlic oil, white wine, vegetable broth, cream, butter, Italian hard cheese, nutmeg, parsley",
       "dietary": null,
-      "id": 22,
       "ingredients": "fillet beef, mushrooms, rosemary, balsamic onions, garlic oil, white wine, vegetable broth, cream, butter, Italian hard cheese, nutmeg, parsley",
-      "name": "RISOTTO FUNGHI ",
+      "name": "RISOTTO FUNGHI",
       "price": "13.50"
     },
     {
@@ -235,9 +212,8 @@
       "category": "HOMEMADE FRESH PASTA",
       "description": "mushrooms, rosemary, balsamic onions, garlic oil, white wine, vegetable broth,\ncream, butter, Italian hard cheese, nutmeg, parsley",
       "dietary": null,
-      "id": 23,
       "ingredients": "king prawns, mushrooms, rosemary, balsamic onions, garlic oil, white wine, vegetable broth,\ncream, butter, Italian hard cheese, nutmeg, parsley",
-      "name": "RISOTTO FUNGHI ",
+      "name": "RISOTTO FUNGHI",
       "price": "13.25"
     },
     {
@@ -245,7 +221,6 @@
       "category": "PIZZA",
       "description": "our home-made pizza dough drizzled with fresh garlic oil",
       "dietary": "Vegan",
-      "id": 24,
       "ingredients": "homemade pizza dough, fresh garlic oil",
       "name": "GARLIC BREAD",
       "price": "4.50 "
@@ -255,19 +230,17 @@
       "category": "PIZZA",
       "description": "our home-made pizza dough with mozzarella and drizzled with fresh garlic oil",
       "dietary": "Vegetarian",
-      "id": 25,
       "ingredients": "homemade pizza dough, mozzarella, fresh garlic oil",
-      "name": "GARLIC BREAD WITH CHEESE ",
-      "price": "5.45 "
+      "name": "GARLIC BREAD WITH CHEESE",
+      "price": "5.45"
     },
     {
       "additional_details": null,
       "category": "PIZZA",
       "description": "our home-made pizza dough with vegan cheese and drizzled with fresh garlic oil",
       "dietary": "Vegan",
-      "id": 26,
       "ingredients": "homemade pizza dough, vegan cheese, fresh garlic oil",
-      "name": "GARLIC BREAD WITH CHEESE ",
+      "name": "GARLIC BREAD WITH CHEESE",
       "price": "6.45 "
     },
     {
@@ -275,17 +248,15 @@
       "category": "PIZZA",
       "description": "tomato sauce, mozzarella",
       "dietary": "Vegetarian",
-      "id": 28,
       "ingredients": "tomato sauce, mozzarella",
       "name": "MARGHERITA",
-      "price": "8.75 "
+      "price": "8.75"
     },
     {
       "additional_details": null,
       "category": "PIZZA",
       "description": "spicy Italian sausage, marinated tomatoes, olives, fresh herbs, tomato sauce, mozzarella",
       "dietary": null,
-      "id": 29,
       "ingredients": "spicy Italian sausage, marinated tomatoes, olives, fresh herbs, tomato sauce, mozzarella",
       "name": "PICCANTE",
       "price": "11.55"
@@ -295,9 +266,8 @@
       "category": "PIZZA",
       "description": "ham, mushrooms, tomato sauce, mozzarella",
       "dietary": null,
-      "id": 30,
       "ingredients": "ham, mushrooms, tomato sauce, mozzarella",
-      "name": "PROSCIUTTO E FUNGHI ",
+      "name": "PROSCIUTTO E FUNGHI",
       "price": "10.75"
     }
   ]
