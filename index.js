@@ -16,10 +16,19 @@ db.authenticate()
   .catch(() => console.error('Unable to connect to the database:', error))
 
 // force: true to be removed or alternative to primaryKey bug to be found
-db.sync({ force: true })
-  .then(() => MenuItems.bulkCreate(data.items, { validate: true }))
+db.sync()
+  .then(() => {
+    console.log('Database synced')
+
+    MenuItems.findAll().then(items => {
+      if (!items.length) {
+        MenuItems.bulkCreate(data.items, { validate: true })
+      }
+    })
+  })
+
   .catch(err => console.log(err))
 
-app.listen(PORT, () => console.log('Express API listening on port 4001'))
+app.listen(PORT, () => console.log(`Express API listening on port ${PORT}`))
 
 app.use('/menu-items', menuItemsRouters)
