@@ -2,11 +2,7 @@ const Sequelize = require('sequelize')
 const db = require('../config/db')
 
 const MenuItems = db.define('menu_items', {
-  id: {
-    type: Sequelize.INTEGER,
-    primaryKey: true,
-    autoIncrement: true
-  },
+  // id will automatically be created by sequelize
   name: Sequelize.STRING,
   price: Sequelize.DOUBLE,
   description: Sequelize.STRING,
