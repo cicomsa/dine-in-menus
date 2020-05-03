@@ -6,10 +6,11 @@ const MenuItems = db.define('menu_items', {
   name: Sequelize.STRING,
   price: Sequelize.DOUBLE,
   description: Sequelize.STRING,
-  category: Sequelize.STRING,
   dietary: Sequelize.STRING,
   ingredients: Sequelize.STRING,
-  additional_details: Sequelize.STRING
+  additional_details: Sequelize.STRING,
+  category: Sequelize.STRING,
+  category_id: Sequelize.INTEGER
 }, {
     tableName: 'menu_items',
     timestamps: false

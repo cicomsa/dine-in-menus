@@ -270,5 +270,22 @@
       "name": "PROSCIUTTO E FUNGHI",
       "price": "10.75"
     }
+  ],
+  "categories": [
+    {
+      "name": "INSALATE",
+      "description": "salads",
+      "additional_details": "pick and choose"
+    },
+    {
+      "name": "PASTA",
+      "description": "pastas",
+      "additional_details": "pick and choose"
+    },
+    {
+      "name": "PIZZA",
+      "description": "pizzas",
+      "additional_details": "pick and choose"
+    }
   ]
 }

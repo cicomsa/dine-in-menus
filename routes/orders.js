@@ -1,11 +1,11 @@
 const express = require('express')
-const MenuItems = require('../models/MenuItems')
+const Orders = require('../models/Orders')
 const db = require('../config/db')
 
 const router = express.Router()
 
 router.get('/', (req, res) => {
-  MenuItems.findAll(
+  Orders.findAll(
     // {
     //   attributes: ['id', 'name', 'price']
     // }
@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
   const itemId = req.params.id
 
-  MenuItems.findOne({
+  Orders.findOne({
     where: {
       id: itemId
     }
@@ -29,7 +29,7 @@ router.get('/:id', (req, res) => {
 router.post('/add', (req, res) => {
   const item = req.body
 
-  MenuItems.create(item)
+  Orders.create(item)
     .then(item => res.status(201).send(item))
     .catch(err => console.log(err))
 })
@@ -39,7 +39,7 @@ router.put('/:id', (req, res) => {
   const updates = req.body
 
   // find the user in the DB
-  MenuItems.findOne({ itemId })
+  Orders.findOne({ itemId })
     .then(name => {
       // change the item and store in DB
       return name.update(updates)
@@ -59,7 +59,7 @@ router.put('/:id', (req, res) => {
 router.delete('/:id', (req, res) => {
   const itemId = req.params.id
 
-  MenuItems.findOne({ itemId })
+  Orders.findOne({ itemId })
     .then(item => {
       // change the item and store in DB
       return item.destroy()

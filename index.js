@@ -1,9 +1,14 @@
 const bodyParser = require('body-parser')
 const express = require('express')
 const db = require('./config/db')
-const MenuItems = require('./models/MenuItems')
 const data = require('./data.json')
+const MenuItems = require('./models/MenuItems')
+const MenuCategories = require('./models/MenuCategories')
 const menuItemsRouters = require('./routes/menu-items')
+const menuCategoriesRouters = require('./routes/menu-categories')
+const orderedItemRouters = require('./routes/ordered-item')
+const ordersRouters = require('./routes/orders')
+const { addStaticData } = require('./helpers')
 
 const app = express()
 const PORT = process.env.PORT || 4001
@@ -20,15 +25,14 @@ db.sync()
   .then(() => {
     console.log('Database synced')
 
-    MenuItems.findAll().then(items => {
-      if (!items.length) {
-        MenuItems.bulkCreate(data.items, { validate: true })
-      }
-    })
+    addStaticData(MenuItems, data.items)
+    addStaticData(MenuCategories, data.categories)
   })
-
   .catch(err => console.log(err))
 
 app.listen(PORT, () => console.log(`Express API listening on port ${PORT}`))
 
 app.use('/menu-items', menuItemsRouters)
+app.use('/menu-categories', menuCategoriesRouters)
+app.use('/ordered-item', orderedItemRouters)
+app.use('/orders', ordersRouters)
