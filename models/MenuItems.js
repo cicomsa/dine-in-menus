@@ -9,6 +9,7 @@ const MenuItems = db.define('menu_items', {
   dietary: Sequelize.STRING,
   ingredients: Sequelize.STRING,
   additional_details: Sequelize.STRING,
+  available: Sequelize.BOOLEAN,
   category: Sequelize.STRING,
   category_id: Sequelize.INTEGER
 }, {
